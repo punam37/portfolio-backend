@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.use(cors({
 
-    origin:"https://portfolio-poonam.vercel.app",
+    origin:"portfolio-backend-two-lake.vercel.app",
     methods:["GET","POST"],
     credentials:true
 
